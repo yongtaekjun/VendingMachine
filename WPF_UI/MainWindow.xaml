@@ -96,7 +96,7 @@
         </ComboBox>-->
 
 
-        <!--Snacks-->
+        <!--Snacks row 1-->
         <Image 
             Grid.Row="3"
             Grid.Column="1"
@@ -125,6 +125,95 @@
             Grid.RowSpan="3"
             Source="E:\CSharp\WFP\VendingMachine\images\A4.png"
          />
+        <!--Snacks row 2-->
+
+        <Image 
+            Grid.Row="6"
+            Grid.Column="1"
+            Grid.ColumnSpan="2"
+            Grid.RowSpan="3"
+            Source="E:\CSharp\WFP\VendingMachine\images\B1.png"
+         />
+        <Image 
+            Grid.Row="6"
+            Grid.Column="2"
+            Grid.ColumnSpan="2"
+            Grid.RowSpan="3"
+            Source="E:\CSharp\WFP\VendingMachine\images\B2.png"
+         />
+        <Image 
+            Grid.Row="6"
+            Grid.Column="3"
+            Grid.ColumnSpan="2"
+            Grid.RowSpan="3"
+            Source="E:\CSharp\WFP\VendingMachine\images\B3.png"
+         />
+        <Image 
+            Grid.Row="6"
+            Grid.Column="4"
+            Grid.ColumnSpan="2"
+            Grid.RowSpan="3"
+            Source="E:\CSharp\WFP\VendingMachine\images\B4.png"
+         />
+
+        <Image 
+            Grid.Row="9"
+            Grid.Column="1"
+            Grid.ColumnSpan="2"
+            Grid.RowSpan="3"
+            Source="E:\CSharp\WFP\VendingMachine\images\C1.png"
+         />
+        <Image 
+            Grid.Row="9"
+            Grid.Column="2"
+            Grid.ColumnSpan="2"
+            Grid.RowSpan="3"
+            Source="E:\CSharp\WFP\VendingMachine\images\C2.png"
+         />
+        <Image 
+            Grid.Row="9"
+            Grid.Column="3"
+            Grid.ColumnSpan="2"
+            Grid.RowSpan="3"
+            Source="E:\CSharp\WFP\VendingMachine\images\C3.png"
+         />
+        <Image 
+            Grid.Row="9"
+            Grid.Column="4"
+            Grid.ColumnSpan="2"
+            Grid.RowSpan="3"
+            Source="E:\CSharp\WFP\VendingMachine\images\C4.png"
+         />
+
+        <Image 
+            Grid.Row="12"
+            Grid.Column="1"
+            Grid.ColumnSpan="2"
+            Grid.RowSpan="3"
+            Source="E:\CSharp\WFP\VendingMachine\images\D1.png"
+         />
+        <Image 
+            Grid.Row="12"
+            Grid.Column="2"
+            Grid.ColumnSpan="2"
+            Grid.RowSpan="3"
+            Source="E:\CSharp\WFP\VendingMachine\images\D2.png"
+         />
+        <Image 
+            Grid.Row="12"
+            Grid.Column="3"
+            Grid.ColumnSpan="2"
+            Grid.RowSpan="3"
+            Source="E:\CSharp\WFP\VendingMachine\images\D3.png"
+         />
+        <Image 
+            Grid.Row="12"
+            Grid.Column="4"
+            Grid.ColumnSpan="2"
+            Grid.RowSpan="3"
+            Source="E:\CSharp\WFP\VendingMachine\images\D4.png"
+         />
+
 
         <!-- Coins -->
         <Button x:Name="btn200" 
@@ -248,8 +337,8 @@
                 Click="btnSubmit_Click"/>
         <TextBox x:Name="tbMessage" 
                 Grid.Row="15" 
-                Grid.Column="7" 
-                Grid.ColumnSpan="4"
+                Grid.Column="2" 
+                Grid.ColumnSpan="8"
                 Grid.RowSpan="5"
                 Text=""
                  FontSize="12"
